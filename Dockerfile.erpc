@@ -1,5 +1,5 @@
 # Base image
-FROM ghcr.io/erpc/erpc:0.0.23
+FROM ghcr.io/erpc/erpc:latest
 
 # Install gomplate for advanced templating
 RUN apk add --no-cache curl && \
